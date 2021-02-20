@@ -24,10 +24,7 @@ export class MainComponent implements OnInit {
       data.sort((a,b) => a.time - b.time);
       return data;
 }));
-    // this.videoService.fetchTranscript().pipe(takeUntil(this.unsubscribe$))
-    // .subscribe(data => {
-    //   console.log(data);
-    // });
+  
 
   }
 

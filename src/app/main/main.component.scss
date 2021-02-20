@@ -1,3 +1,18 @@
+
+:host{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+}
+
+.video-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .container{
 background: #FFFFFF;
 border: 1px solid #D7DADE;
@@ -13,7 +28,7 @@ justify-content: center;
     color: #EE6EFF
 }
 .snippet {
-    color:#00A7D1
+    color:#00A7D1;
 }
 .transcript-wrapper{
     height:200px;
