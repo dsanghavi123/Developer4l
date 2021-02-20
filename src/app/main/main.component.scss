@@ -1,0 +1,22 @@
+.container{
+background: #FFFFFF;
+border: 1px solid #D7DADE;
+border-radius: 5px;
+width: 824px;
+height:521px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.speaker{
+    color: #EE6EFF
+}
+.snippet {
+    color:#00A7D1
+}
+.transcript-wrapper{
+    height:200px;
+    overflow-y: auto;
+    width: 100%;
+}
